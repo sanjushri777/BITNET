@@ -110,9 +110,9 @@ Here’s an overview of the most important folders and files:
 
 ```
 BITNET/
-├── contracts/
-│   └── BITNET.sol                # Main smart contract (Solidity)
 ├── frontend/
+│   ├── contracts/
+│   │   └── BITNET.sol            # Main smart contract (Solidity)
 │   ├── src/
 │   │   ├── app/                  # Next.js application routing
 │   │   ├── components/           # Reusable React components (ConnectButton, TopBar, Sidebar, etc.)
@@ -132,6 +132,7 @@ BITNET/
 │   └── .env.example              # Template for required variables (included in repo)
 ├── package.json                  # Dependency and scripts manager
 ├── README.md                     # This documentation
+
 ```
 
 **Highlights:**
